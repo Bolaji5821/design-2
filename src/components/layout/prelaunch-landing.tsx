@@ -215,7 +215,7 @@ export function PrelaunchLanding() {
               <span className="absolute -right-16 -top-16 h-52 w-52 rounded-full border-[34px] border-white/10" />
             </article>
 
-            <div className="kairos-card-doodle kairos-glass-card overflow-hidden rounded-[28px] border border-black/10 lg:col-span-5" data-doodle="left">
+            <div className="design-2-navy-card kairos-card-doodle kairos-glass-card overflow-hidden rounded-[28px] border border-black/10 lg:col-span-5" data-doodle="left">
               <CardDoodles pattern={3} />
               {audiences.slice(1).map((audience) => (
                 <article
@@ -263,7 +263,7 @@ export function PrelaunchLanding() {
             {categories.map((category, index) => (
               <article
                 key={category.title}
-                className={`kairos-glass-card kairos-glass-card-interactive rounded-[24px] border border-black/10 p-7 dark:border-white/10 ${index < 2 ? "kairos-card-doodle" : ""} ${
+                className={`kairos-glass-card kairos-glass-card-interactive rounded-[24px] border border-black/10 p-7 dark:border-white/10 ${index < 2 ? "kairos-card-doodle" : ""} ${index === 1 || index === 3 ? "design-2-navy-card" : ""} ${
                   index === 0
                     ? "lg:col-span-7 lg:min-h-72 lg:p-10"
                     : index === 1
@@ -287,7 +287,7 @@ export function PrelaunchLanding() {
 
       <section id="platform-progress" className="scroll-mt-24 py-24 sm:py-28 lg:py-36">
         <div className="mx-auto max-w-[1440px] px-5 sm:px-8">
-          <div className="kairos-card-doodle grid overflow-hidden rounded-[28px] bg-[#171717] text-white dark:bg-[#1D1D1D] lg:grid-cols-12">
+          <div className="kairos-card-doodle grid overflow-hidden rounded-[28px] bg-[#121532] text-white lg:grid-cols-12">
             <CardDoodles pattern={3} />
             <div className="p-8 sm:p-12 lg:col-span-7 lg:p-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#E887AD]">
@@ -331,7 +331,7 @@ export function PrelaunchLanding() {
 
       <section id="mission" className="scroll-mt-24 py-24 sm:py-28 lg:py-36">
         <div className="mx-auto grid max-w-[1440px] gap-5 px-5 sm:px-8 lg:grid-cols-12">
-          <article className="kairos-card-doodle kairos-glass-card rounded-[28px] border border-black/10 p-8 sm:p-12 lg:col-span-7 lg:min-h-[420px]" data-doodle="left">
+          <article className="design-2-navy-card kairos-card-doodle kairos-glass-card rounded-[28px] border border-black/10 p-8 sm:p-12 lg:col-span-7 lg:min-h-[420px]" data-doodle="left">
             <CardDoodles pattern={4} />
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#C2185B]">
               Our mission

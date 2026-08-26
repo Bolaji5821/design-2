@@ -77,7 +77,7 @@ export function LandingHero({ audience }: LandingHeroProps) {
             priority
             unoptimized
             className="design-2-vector-scene"
-            sizes="(max-width: 767px) 190vw, 100vw"
+            sizes="(max-width: 767px) 135vw, 100vw"
           />
         </div>
         <ul className="design-2-trust" aria-label="Kairos service highlights">

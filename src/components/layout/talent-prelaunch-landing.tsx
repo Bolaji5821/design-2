@@ -116,7 +116,7 @@ export function TalentPrelaunchLanding() {
             <span className="absolute -right-16 -top-16 h-52 w-52 rounded-full border-[34px] border-white/10" />
           </article>
 
-          <aside className="kairos-card-doodle kairos-glass-card rounded-[28px] border border-black/10 p-8 sm:p-10 lg:col-span-5" data-doodle="left">
+          <aside className="design-2-navy-card kairos-card-doodle kairos-glass-card rounded-[28px] border border-black/10 p-8 sm:p-10 lg:col-span-5" data-doodle="left">
             <CardDoodles pattern={4} />
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#C2185B]">
               Launch readiness
@@ -137,7 +137,7 @@ export function TalentPrelaunchLanding() {
 
       <section id="platform-progress" className="scroll-mt-24 py-24 sm:py-28 lg:py-36">
         <div className="mx-auto max-w-[1440px] px-5 sm:px-8">
-          <div className="kairos-card-doodle grid overflow-hidden rounded-[28px] bg-[#171717] text-white dark:bg-[#1D1D1D] lg:grid-cols-12">
+          <div className="kairos-card-doodle grid overflow-hidden rounded-[28px] bg-[#121532] text-white lg:grid-cols-12">
             <CardDoodles pattern={1} />
             <div className="p-8 sm:p-12 lg:col-span-7 lg:p-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#E887AD]">
